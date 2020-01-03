@@ -16,5 +16,4 @@ Implement user interfaces with tab views and collection views
 Why is this project meaningful to my career?
 Becoming comfortable using all of the key components of UIKit is an essential step in becoming an iOS developer.
 Understanding UIKit allows a developer to make educated assumptions about the architecture of apps that they use.
-
 Mastering UKit fundamentals frees a developer up to learn model-oriented skills like networking and persistence.
