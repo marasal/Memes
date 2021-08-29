@@ -1,19 +1,13 @@
 # Memes
-#Project Overview
+## Project Overview
 
-MemeMe is a meme-generating app that enables a user to attach a caption to a picture from their phone. After adding text to an image chosen from the Photo Album or Camera, the user can share it with friends. MemeMe also temporarily stores sent memes which users can browse in a table or a grid. It is developed as a part of Udacity Nanodegree Program.
+MemeMe is a meme-generating app that enables a user to attach a caption to a picture from their phone. After adding text to an image chosen from the Photo Album or Camera, the user can share it with friends. MemeMe also temporarily stores sent memes which users can browse in a table or a grid.
 
-# Why this project?
+## Implementation
+The app has three view controller scenes:
 
-MemeMe covers many of the major UI components found in essentially every app. It combines them with the camera and social media activity view to create a fun and personal user experience.
+- EditorController - consists of an image view overlaid by two text fields, one near the top and one near the bottom of the image. To create meme user should pick photo from the camera or existing photo album.
 
-# What Will I learn?
+- TableController and CollectionController - displays recently sent memes. It has a bottom toolbar with tabs that allow the user to toggle between viewing sent memes in a table and viewing them in a grid.
 
-Set up a navigation structure that creates an intuitive flow through the app
-Build tables with datasources and delegates
-Create custom table view cells
-Implement user interfaces with tab views and collection views
-Why is this project meaningful to my career?
-Becoming comfortable using all of the key components of UIKit is an essential step in becoming an iOS developer.
-Understanding UIKit allows a developer to make educated assumptions about the architecture of apps that they use.
-Mastering UKit fundamentals frees a developer up to learn model-oriented skills like networking and persistence.
+- PreviewController - displays the selected meme in an image view in the center of the page with the meme’s original aspect ratio. User also be able to share or save meme as file by clicking the appropriate button in the navigation bar.
